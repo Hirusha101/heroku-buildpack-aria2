@@ -1,0 +1,11 @@
+#!/bin/sh
+
+BUILD_DIR=$1
+
+echo "Installing aria2..."
+
+# Install aria2 and its dependencies
+apt-get update
+apt-get install -y aria2
+
+echo "aria2 installation completed."
